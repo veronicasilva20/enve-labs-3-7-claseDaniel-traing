@@ -102,4 +102,11 @@ console.log(resultado8)
 
 //11)contar ocurrencias de una letra:
 
-
+function contarLetras(cadena,letras) {
+  return cadena.split(letras).length -1;
+  
+}
+let cadena = "hola mundo desde javascript";
+let letras = "o";
+let resultadoa = contarLetras(cadena,letras);
+console.log(resultadoa);
